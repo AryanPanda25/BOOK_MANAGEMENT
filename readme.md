@@ -66,4 +66,14 @@ DECISIONS AND ASSUMPTIONS:
 
 => For error handling I have made a error middleware and handled errors like unhandled promise rejection, uncaught exception, wrong mongodb id error, duplicate mongoose key error etc.
 
-=> I have implemented serch, filter and pagination feature in API which is used to fetch all data records of book from database.
+=> I have implemented serch, filter and pagination feature in API which is used to fetch all data records of book from database
+
+FEATURES CHECKLIST:
+-------------------
+=> Adding a book 
+=> Showing all book (search, filter, pagination(50 books per page) is implemented)
+=> Showing a book details
+=> Updating a book
+=> Deleting a book
+=> Error handling
+=> Hosted on render
