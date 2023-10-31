@@ -12,21 +12,21 @@ API ENDPOINTS:
 
 => It uses GET HTTP verb to retrieve all the data from database.
 
-=> Apifeature like "serach" (used for searching book from book name), "filter" (used for filtering book from author name) and      "pagination" (show 5 books record per page) is implemented.
+=> Apifeature like "serach" (used for searching book from book name), "filter" (used for filtering book from author name) and      "pagination" (show 50 books record per page) is implemented.
 
-3. api/v1/bookDetails/:id
+3. /api/v1/bookDetails/:id
 
 => This is used to get details about a perticular book having id equals to id present in api endpoint.
 
 => It uses GET HTTP verb to retrieve the perticular book details.
 
-4. api/v1/book/update/:id
+4. /api/v1/book/update/:id
 
 => This is used to update the book details having id equals to id present in api endpoint.
 
 => It uses PUT HTTP verb to update that perticular book details.
 
-5. api/v1/book/:id
+5. /api/v1/book/:id
 
 => This is used to delete a book permanently from the database having id equals present in api endpoint.
 
@@ -39,7 +39,7 @@ ERROR HANDLING:
 HOW TO RUN THIS PROJECT:
 ------------------------
 => All the parts of the project are deployed on the web, here are the deployed links
-   backend : 
+   backend : https://book-management-api-9sq9.onrender.com
 
 => Still, if you want to make a new version of this project for yourself. Follow these steps:
    Fork the Repo

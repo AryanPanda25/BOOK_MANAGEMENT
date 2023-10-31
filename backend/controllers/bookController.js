@@ -20,7 +20,7 @@ export const addBook = catchAsyncError(async (req, res) => {
 /*  SHOW LIST OF ALL BOOKS  */
 export const showBooks = catchAsyncError(async (req, res) => {
 
-    const resultPerPage = 5;
+    const resultPerPage = 50;
     const apiFeature = new ApiFeatures(Book.find(), req.query)
         .search()
         .filter()
