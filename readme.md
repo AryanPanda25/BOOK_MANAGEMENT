@@ -70,10 +70,10 @@ DECISIONS AND ASSUMPTIONS:
 
 FEATURES CHECKLIST:
 -------------------
-=> Adding a book 
-=> Showing all book (search, filter, pagination(50 books per page) is implemented)
-=> Showing a book details
-=> Updating a book
-=> Deleting a book
-=> Error handling
-=> Hosted on render
+1. Adding a book 
+2. Showing all book (search, filter, pagination(50 books per page) is implemented)
+3. Showing a book details
+4. Updating a book
+5. Deleting a book
+6. Error handling
+7. Hosted on render
