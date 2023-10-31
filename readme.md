@@ -73,15 +73,12 @@ HOST THE IN RENDER:
 1. First click to new in render dashboard then choose the web service
 2. Import the folder from githiub
 3. Then do the following things.
-   1. name: BOOK_MANAGEMENT_API
+   1. Name: BOOK_MANAGEMENT_API
    2. Root directory: backend
    3. Build command: npm install
    4. Start command: npm run dev
 4. Then in the advanced tab put environment variables
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-5. Then hit create web service
+5. Then hit the create web service button
 
 FEATURES CHECKLIST:
 -------------------
